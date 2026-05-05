@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: black;
+    color:white;
+    font-size: 8rem;
+    height:100vh ;
+    width: 100vw;
+}
+.scroll-section{
+    height:200vh;
+}
+.content{
+    position: sticky;
+    top:0;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.scaler img{
+    width: 60vw;
+    transition: transform 0.1s linear;
+}
